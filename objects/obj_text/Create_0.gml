@@ -8,6 +8,3 @@ x2_target = RESOLUTION_W;
 
 lerp_progress = 0;
 text_progress = 0;
-
-message = "Default message text";
-background = 0;

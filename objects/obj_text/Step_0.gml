@@ -12,6 +12,14 @@ if (keyboard_check_pressed(vk_space))
 	if (text_progress >= _message_length)
 	{
 		instance_destroy();
+		if (instance_exists(obj_text_queued))
+		{
+			with (obj_text_queued) ticket--;
+		}
+		else
+		{
+			with (obj_player) state = last_state;
+		}
 	}
 	
 	// Skip the text animation
