@@ -2,8 +2,9 @@
 randomize();
 
 global.game_paused = false;
+global.text_speed = 0.75;
 
 global.inst_camera = instance_create_layer(0, 0, layer, obj_camera);
 
-
+surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H);
 room_goto(r_village);
