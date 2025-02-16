@@ -11,3 +11,5 @@ input_direction = point_direction(0, 0, key_right - key_left, key_down - key_up)
 input_magnitude = (key_right - key_left != 0) || (key_down - key_up != 0);
 
 if (!global.game_paused) script_execute(state);
+
+depth = -bbox_bottom;

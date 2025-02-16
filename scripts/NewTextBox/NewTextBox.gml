@@ -1,3 +1,4 @@
+// can instead use draw_sprite_stretched()
 function NewTextBox(){
 	var _obj;
 	if(instance_exists(obj_text)) _obj = obj_text_queued; else _obj = obj_text;

@@ -5,6 +5,7 @@
 /// @arg y1
 /// @arg y2
 
+// can instead use draw_sprite_stretched()
 function NineSliceBox(){
 	var _size = sprite_get_width(argument0) / 3;
 	var _x1 = argument1;
