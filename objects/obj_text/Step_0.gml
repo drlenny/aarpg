@@ -13,6 +13,7 @@ var _min = 0;
 if (response_selected > _max) response_selected = _min;
 if (response_selected < _min) response_selected = _max;
 
+// End Message
 if (keyboard_check_pressed(vk_space))
 {
 	var _message_length = string_length(message);
@@ -20,6 +21,12 @@ if (keyboard_check_pressed(vk_space))
 	// Close finished message
 	if (text_progress >= _message_length)
 	{
+		if (responses[0] != -1)
+		{
+			with (origin_instance) DialogueResponses(other.response_scripts[other.response_selected]);
+		}
+		
+		
 		instance_destroy();
 		if (instance_exists(obj_text_queued))
 		{

@@ -27,6 +27,7 @@
     {"name":"parent_entity","order":6,"path":"objects/parent_entity/parent_entity.yy",},
     {"name":"r_init","order":2,"path":"rooms/r_init/r_init.yy",},
     {"name":"r_village","order":1,"path":"rooms/r_village/r_village.yy",},
+    {"name":"DialogueResponses","order":11,"path":"scripts/DialogueResponses/DialogueResponses.yy",},
     {"name":"MACROS","order":1,"path":"scripts/MACROS/MACROS.yy",},
     {"name":"NewTextBox","order":9,"path":"scripts/NewTextBox/NewTextBox.yy",},
     {"name":"NineSliceBox","order":6,"path":"scripts/NineSliceBox/NineSliceBox.yy",},
