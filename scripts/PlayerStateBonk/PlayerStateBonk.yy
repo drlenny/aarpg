@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"PlayerStateBonk",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlayerStateBonk",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

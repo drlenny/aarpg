@@ -16,9 +16,9 @@ function NewTextBox(){
 			// trim markers from responses
 			var _array=argument[2];
 
-			for(var _i=0;_i<array_length(_array)  ;_i++)
+			for(var i=0; i<array_length(_array); i++)
 			{
-				responses[_i]=_array[_i];
+				responses[i]=_array[i];
 			}
 
 			for (var i = 0; i < array_length(responses); i++)

@@ -11,6 +11,11 @@ input_magnitude = 0;
 speed_walk = 2.0;
 speed_roll = 3.0;
 distance_roll = 52;
+distance_bonk = 25;
+distance_bonk_height = 12;
+speed_bonk = 1.5;
+z = 0;
+
 key_up = bool;
 key_down = bool;
 key_left = bool;
