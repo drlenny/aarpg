@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"PlayerStateLocked",
+  "%Name":"PlayerStateAttack",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlayerStateLocked",
+  "name":"PlayerStateAttack",
   "parent":{
     "name":"Player State Machine",
     "path":"folders/Scripts/Player State Machine.yy",

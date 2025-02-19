@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"PlayerStateRoll",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Player State Machine",
+    "path":"folders/Scripts/Player State Machine.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
