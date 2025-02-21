@@ -1,5 +1,6 @@
 state = PlayerStateFree;
 state_attack = AttackSlash;
+hit_by_attack = -1;
 last_state = state;
 
 collision_map = layer_tilemap_get_id(layer_get_id("Col"));
