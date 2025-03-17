@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"CalcAttack",
+  "%Name":"EntityHitDestroy",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"CalcAttack",
+  "name":"EntityHitDestroy",
   "parent":{
-    "name":"Player Attacks",
-    "path":"folders/Scripts/Player Attacks.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

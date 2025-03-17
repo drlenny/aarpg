@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"PlayerCollision",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Player General",
+    "path":"folders/Scripts/Player General.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
