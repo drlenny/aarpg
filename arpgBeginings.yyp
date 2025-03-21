@@ -73,6 +73,7 @@
     {"id":{"name":"PlayerStateRoll","path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},},
     {"id":{"name":"ScripExecuteArray","path":"scripts/ScripExecuteArray/ScripExecuteArray.yy",},},
+    {"id":{"name":"sh_white_flash","path":"shaders/sh_white_flash/sh_white_flash.yy",},},
     {"id":{"name":"spr_col","path":"sprites/spr_col/spr_col.yy",},},
     {"id":{"name":"spr_plantA","path":"sprites/spr_plantA/spr_plantA.yy",},},
     {"id":{"name":"spr_plantB","path":"sprites/spr_plantB/spr_plantB.yy",},},
