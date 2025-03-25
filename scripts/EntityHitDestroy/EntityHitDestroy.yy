@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"EntityHitDestroy",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Entity Hit",
+    "path":"folders/Scripts/Entity Hit.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

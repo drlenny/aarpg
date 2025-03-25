@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_frag_plant",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_frag_parent","path":"objects/obj_frag_parent/obj_frag_parent.yy",},"propertyId":{"name":"bounce_count","path":"objects/obj_frag_parent/obj_frag_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+  ],
   "parent":{
     "name":"fragments",
     "path":"folders/Objects/fragments.yy",

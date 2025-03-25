@@ -4,7 +4,7 @@ if (!global.game_paused)
 	if (bounce_count != 0)
 	{
 		bounce += (pi * bounce_speed);
-		if (bounce + pi)
+		if (bounce > pi)
 		{
 			bounce -= pi;
 			bounce_height *= 0.6;
@@ -30,7 +30,7 @@ if (!global.game_paused)
 	x += lengthdir_x(spd, direction);
 	y += lengthdir_y(spd, direction);
 	if (tilemap_get_at_pixel(collision_map, x, y) > 0) spd = 0;
-	spd = max(spd - fric, 0);
+	spd = max(spd-fric, 0);
 	
 	
 }

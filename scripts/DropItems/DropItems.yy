@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"EntityHitSolid",
+  "%Name":"DropItems",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"EntityHitSolid",
+  "name":"DropItems",
   "parent":{
-    "name":"Entity Hit",
-    "path":"folders/Scripts/Entity Hit.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
