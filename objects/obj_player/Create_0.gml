@@ -18,6 +18,8 @@ distance_bonk_height = 12;
 speed_bonk = 1.5;
 z = 0;
 
+animation_end_script = -1;
+
 key_up = bool;
 key_down = bool;
 key_left = bool;
