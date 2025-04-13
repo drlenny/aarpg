@@ -30,3 +30,11 @@ sprite_roll = spr_player_roll;
 sprite_run = spr_player_run;
 sprite_idle = spr_player;
 local_frame = 0;
+
+// position player appropriately on room transition
+if (global.target_x != -1)
+{
+	x = global.target_x;
+	y = global.target_y;
+	direction = global.target_direction
+}

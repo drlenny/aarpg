@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"NineSliceBoxStretch",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"obsolete",
+    "path":"folders/Scripts/obsolete.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"NewTextBox",
+  "%Name":"RoomTransition",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"NewTextBox",
+  "name":"RoomTransition",
   "parent":{
-    "name":"obsolete",
-    "path":"folders/Scripts/obsolete.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

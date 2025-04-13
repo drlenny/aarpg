@@ -6,4 +6,8 @@ function MACROS(){
 	
 	#macro RESOLUTION_W 640
 	#macro RESOLUTION_H 360
+	
+	#macro TRANSITION_SPEED 0.02
+	#macro OUT 0
+	#macro IN 1
 }
