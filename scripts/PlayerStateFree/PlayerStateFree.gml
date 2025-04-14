@@ -35,12 +35,38 @@ function PlayerStateFree(){
 		// 4. If the thing we activate is an NPC, make it face toward self
 		
 		// Step 1
-		var _activate_x = lengthdir_x(10, direction);
-		var _activate_y = lengthdir_y(10, direction);
-		activate = instance_position(x + _activate_x, y + _activate_y, parent_entity);
+		var _activate_x = x + lengthdir_x(10, direction);
+		var _activate_y = y + lengthdir_y(10, direction);
+		var _activate_size = 4;
+		var _activate_list = ds_list_create();
+		activate = noone;
+		var _entities_found = collision_rectangle_list(
+			_activate_x - _activate_size,
+			_activate_y - _activate_size,
+			_activate_y + _activate_size,
+			_activate_y + _activate_size,
+			parent_entity,
+			false,
+			true,
+			_activate_list,
+			true
+		)
+		
+		// if the first instance we find is either our lifted entity or it has no script, try the next one
+		while (_entities_found > 0)
+		{
+			var _check = _activate_list[| --_entities_found];
+			if (_check != global.inst_lifted) && (_check.entity_activate_script != -1)
+			{
+				activate = _check;
+				break;
+			}
+		}
+		
+		ds_list_destroy(_activate_list);
 		
 		// Step 2
-		if (activate == noone || activate.entity_activate_script == -1)
+		if (activate == noone)
 		{
 			// Throw something if held, otherwise roll
 			if (global.inst_lifted != noone)
