@@ -85,6 +85,7 @@
     {"id":{"name":"PlayerStateLocked","path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},},
     {"id":{"name":"PlayerStateRoll","path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},},
     {"id":{"name":"PlayerStateTransition","path":"scripts/PlayerStateTransition/PlayerStateTransition.yy",},},
+    {"id":{"name":"PlayerThrow","path":"scripts/PlayerThrow/PlayerThrow.yy",},},
     {"id":{"name":"RoomTransition","path":"scripts/RoomTransition/RoomTransition.yy",},},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},},
     {"id":{"name":"ScripExecuteArray","path":"scripts/ScripExecuteArray/ScripExecuteArray.yy",},},

@@ -57,6 +57,7 @@
     {"name":"PlayerStateLocked","order":3,"path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},
     {"name":"PlayerStateRoll","order":4,"path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},
     {"name":"PlayerStateTransition","order":5,"path":"scripts/PlayerStateTransition/PlayerStateTransition.yy",},
+    {"name":"PlayerThrow","order":3,"path":"scripts/PlayerThrow/PlayerThrow.yy",},
     {"name":"RoomTransition","order":14,"path":"scripts/RoomTransition/RoomTransition.yy",},
     {"name":"ScripExecuteArray","order":3,"path":"scripts/ScripExecuteArray/ScripExecuteArray.yy",},
     {"name":"spr_cave_tiles","order":13,"path":"sprites/spr_cave_tiles/spr_cave_tiles.yy",},

@@ -29,6 +29,8 @@ function PlayerStateFree(){
 	{
 		// 1. Check for an entity to activate
 		// 2. If there is nothing, or there is something but it has no script - Roll!
+			// 2a. If we are carrying something, throw it!
+			// 2b. Otherwise, roll!
 		// 3. Otherwise, there is something and it has a script! Activate!
 		// 4. If the thing we activate is an NPC, make it face toward self
 		
@@ -40,8 +42,16 @@ function PlayerStateFree(){
 		// Step 2
 		if (activate == noone || activate.entity_activate_script == -1)
 		{
-			state = PlayerStateRoll;
-			move_distance_remaining = distance_roll;
+			// Throw something if held, otherwise roll
+			if (global.inst_lifted != noone)
+			{
+				PlayerThrow();
+			}
+			else
+			{
+				state = PlayerStateRoll;
+				move_distance_remaining = distance_roll;
+			}
 		}
 		else
 		{
