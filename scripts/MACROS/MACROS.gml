@@ -12,4 +12,15 @@ function MACROS(){
 	#macro IN 1
 	
 	#macro CARRY_HEIGHT 13
+	
+	enum ENEMYSTATE
+	{
+		IDLE,
+		WANDER,
+		CHASE,
+		ATTACK,
+		HURT,
+		DIE,
+		WAIT
+	}
 }

@@ -27,6 +27,8 @@
     {"name":"inst_55248954","path":"rooms/r_village/r_village.yy",},
     {"name":"inst_7E52C371","path":"rooms/r_village/r_village.yy",},
     {"name":"inst_7938CC6B","path":"rooms/r_village/r_village.yy",},
+    {"name":"inst_199CA984","path":"rooms/r_village/r_village.yy",},
+    {"name":"inst_4BF28D58","path":"rooms/r_village/r_village.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -62,6 +64,8 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.75,"x":312.0,"y":32.0,},
         {"$GMRInstance":"","%Name":"inst_7E52C371","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E52C371","objectId":{"name":"obj_pot","path":"objects/obj_pot/obj_pot.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":120.0,},
         {"$GMRInstance":"","%Name":"inst_7938CC6B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7938CC6B","objectId":{"name":"obj_pot","path":"objects/obj_pot/obj_pot.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":120.0,},
+        {"$GMRInstance":"","%Name":"inst_199CA984","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_199CA984","objectId":{"name":"obj_slime_enemy","path":"objects/obj_slime_enemy/obj_slime_enemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":128.0,},
+        {"$GMRInstance":"","%Name":"inst_4BF28D58","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4BF28D58","objectId":{"name":"obj_slime_enemy","path":"objects/obj_slime_enemy/obj_slime_enemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":136.0,"y":56.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
           -41,1,-3,0,1,1,-4,0,4,1,0,0,1,-4,0,4,1,0,0,1,-3,0,1,1,-4,0,4,1,0,0,1,-4,0,8,1,0,0,1,1,0,0,1,-4,0,3,1,
