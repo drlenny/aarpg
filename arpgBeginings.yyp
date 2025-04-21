@@ -95,6 +95,7 @@
     {"id":{"name":"RoomTransition","path":"scripts/RoomTransition/RoomTransition.yy",},},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},},
     {"id":{"name":"ScripExecuteArray","path":"scripts/ScripExecuteArray/ScripExecuteArray.yy",},},
+    {"id":{"name":"SlimeChase","path":"scripts/SlimeChase/SlimeChase.yy",},},
     {"id":{"name":"SlimeWander","path":"scripts/SlimeWander/SlimeWander.yy",},},
     {"id":{"name":"sh_white_flash","path":"shaders/sh_white_flash/sh_white_flash.yy",},},
     {"id":{"name":"spr_cave_tiles","path":"sprites/spr_cave_tiles/spr_cave_tiles.yy",},},

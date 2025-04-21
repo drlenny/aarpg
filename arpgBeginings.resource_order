@@ -65,6 +65,7 @@
     {"name":"PlayerThrow","order":3,"path":"scripts/PlayerThrow/PlayerThrow.yy",},
     {"name":"RoomTransition","order":14,"path":"scripts/RoomTransition/RoomTransition.yy",},
     {"name":"ScripExecuteArray","order":3,"path":"scripts/ScripExecuteArray/ScripExecuteArray.yy",},
+    {"name":"SlimeChase","order":2,"path":"scripts/SlimeChase/SlimeChase.yy",},
     {"name":"spr_cave_tiles","order":13,"path":"sprites/spr_cave_tiles/spr_cave_tiles.yy",},
     {"name":"spr_col","order":2,"path":"sprites/spr_col/spr_col.yy",},
     {"name":"spr_frag_plant","order":11,"path":"sprites/spr_frag_plant/spr_frag_plant.yy",},

@@ -10,6 +10,8 @@ dir = 0;
 time_passed = 0;
 wait_duration = 60;
 wait = 0;
+aggro_check = 0;
+aggro_check_duration = 5;
 
 
 // Enemy Sprites
