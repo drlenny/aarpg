@@ -23,5 +23,14 @@ function SlimeChase(){
 		
 		// Collide and Move
 		EnemyTileCollision();
+		
+		if (point_distance(x, y, obj_player.x, obj_player.y) > enemy_aggro_radius * 2)
+		{
+			aggro_drop++;
+			if (aggro_drop >= aggro_drop_duration)
+			{
+				state = ENEMYSTATE.WANDER;
+			}
+		}
 	}
 }

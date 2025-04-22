@@ -12,6 +12,8 @@ wait_duration = 60;
 wait = 0;
 aggro_check = 0;
 aggro_check_duration = 5;
+aggro_drop = 0;
+aggro_drop_duration = 120;
 
 
 // Enemy Sprites
