@@ -24,13 +24,26 @@ function SlimeChase(){
 		// Collide and Move
 		EnemyTileCollision();
 		
-		if (point_distance(x, y, obj_player.x, obj_player.y) > enemy_aggro_radius * 2)
+		// Drop aggro if player is far enough away for long enough
+		if (point_distance(x, y, obj_player.x, obj_player.y) > enemy_aggro_radius * 2) && (++aggro_drop >= aggro_drop_duration)
 		{
-			aggro_drop++;
-			if (aggro_drop >= aggro_drop_duration)
-			{
-				state = ENEMYSTATE.WANDER;
-			}
+			aggro_drop = 0;
+			state = ENEMYSTATE.WANDER;
+		}
+		
+		// Check if close enough to launch an attack
+		if (point_distance(x, y, target.x, target.y) <= enemy_attack_radius)
+		{
+			state = ENEMYSTATE.ATTACK;
+			sprite_index = spr_attack;
+			image_index = 0;
+			image_speed = 1.0;
+			// target 8px past the player
+			x_to += lengthdir_x(8, dir);
+			y_to += lengthdir_y(8, dir);
 		}
 	}
+	
+
+	
 }
