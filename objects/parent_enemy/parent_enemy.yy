@@ -34,6 +34,7 @@
     {"$GMObjectProperty":"v1","%Name":"enemy_speed","filters":[],"listItems":[],"multiselect":false,"name":"enemy_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.75","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"enemy_aggro_radius","filters":[],"listItems":[],"multiselect":false,"name":"enemy_aggro_radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"48","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"enemy_attack_radius","filters":[],"listItems":[],"multiselect":false,"name":"enemy_attack_radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"16","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"enemy_HP","filters":[],"listItems":[],"multiselect":false,"name":"enemy_HP","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

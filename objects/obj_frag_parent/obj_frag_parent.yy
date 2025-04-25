@@ -10,8 +10,8 @@
   "name":"obj_frag_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"fragments",
-    "path":"folders/Objects/fragments.yy",
+    "name":"Fragments",
+    "path":"folders/Objects/Fragments.yy",
   },
   "parentObjectId":null,
   "persistent":false,

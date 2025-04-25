@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"CalcAttack",
+  "%Name":"PlayerAttackFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"CalcAttack",
+  "name":"PlayerAttackFunctions",
   "parent":{
     "name":"Player Attacks",
     "path":"folders/Scripts/Player Attacks.yy",
