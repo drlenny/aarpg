@@ -2,7 +2,8 @@
 /// @arg Background
 /// @arg [Responses]
 
-// can instead use draw_sprite_stretched()
+// using draw_sprite_stretched() for the box sprite
+// this is for the text
 function NewTextBox(){
 	var _obj;
 	if(instance_exists(obj_text)) _obj = obj_text_queued; else _obj = obj_text;

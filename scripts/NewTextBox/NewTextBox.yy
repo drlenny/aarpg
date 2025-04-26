@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"NewTextBox",
   "parent":{
-    "name":"obsolete",
-    "path":"folders/Scripts/obsolete.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
