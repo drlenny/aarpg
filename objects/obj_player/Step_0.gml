@@ -10,6 +10,10 @@ key_item = keyboard_check_pressed(vk_control);
 input_direction = point_direction(0, 0, key_right - key_left, key_down - key_up);
 input_magnitude = (key_right - key_left != 0) || (key_down - key_up != 0);
 
-if (!global.game_paused) script_execute(state);
-
+if (!global.game_paused) 
+{
+	script_execute(state);
+	invulnerable = max(invulnerable - 1, 0);
+	flash = max(flash - 0.05, 0);
+}
 depth = -bbox_bottom;

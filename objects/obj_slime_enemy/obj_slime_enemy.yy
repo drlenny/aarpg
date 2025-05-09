@@ -8,6 +8,8 @@
   "name":"obj_slime_enemy",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},"propertyId":{"name":"enemy_HP","path":"objects/parent_enemy/parent_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},"propertyId":{"name":"enemy_damage_touch","path":"objects/parent_enemy/parent_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.25",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},"propertyId":{"name":"enemy_force_touch","path":"objects/parent_enemy/parent_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"32",},
   ],
   "parent":{
     "name":"Enemies",

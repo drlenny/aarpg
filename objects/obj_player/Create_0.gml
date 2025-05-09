@@ -17,6 +17,9 @@ distance_bonk = 25;
 distance_bonk_height = 12;
 speed_bonk = 1.5;
 z = 0;
+invulnerable = 0;
+flash = 0;
+flash_shader = sh_white_flash;
 
 animation_end_script = -1;
 

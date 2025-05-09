@@ -24,6 +24,8 @@ function PlayerStateFree(){
 		state_attack = AttackSlash;
 	}
 
+	// ****IMPORTANT
+	// Something screwy is going on with the action key logic. Go back to previous builds and videos and review and find the issue.
 	// Activate Key Logic
 	if (key_activate)
 	{
