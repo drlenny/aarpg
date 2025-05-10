@@ -18,14 +18,13 @@ function PlayerStateFree(){
 	PlayerAnimateSprite();
 	
 	// Attack Key Logic
-	if(key_attack)
+	
+	if(key_attack) && (global.inst_lifted == noone) // checks if an item is held
 	{
 		state = PlayerStateAttack;
 		state_attack = AttackSlash;
 	}
 
-	// ****IMPORTANT
-	// Something screwy is going on with the action key logic. Go back to previous builds and videos and review and find the issue.
 	// Activate Key Logic
 	if (key_activate)
 	{
@@ -34,18 +33,19 @@ function PlayerStateFree(){
 			// 2a. If we are carrying something, throw it!
 			// 2b. Otherwise, roll!
 		// 3. Otherwise, there is something and it has a script! Activate!
-		// 4. If the thing we activate is an NPC, make it face toward self
+		// 4. If the thing we activate is an NPC, make it face toward self.
 		
 		// Step 1
 		var _activate_x = x + lengthdir_x(10, direction);
 		var _activate_y = y + lengthdir_y(10, direction);
+		
 		var _activate_size = 4;
 		var _activate_list = ds_list_create();
 		activate = noone;
 		var _entities_found = collision_rectangle_list(
 			_activate_x - _activate_size,
 			_activate_y - _activate_size,
-			_activate_y + _activate_size,
+			_activate_x + _activate_size,
 			_activate_y + _activate_size,
 			parent_entity,
 			false,
