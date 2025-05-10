@@ -140,6 +140,7 @@ function SlimeAttack(){
 	{
 		x = x_to;
 		y = y_to;
+		
 		// So the image_index is being tracked correctly, it stop just short of 5 and gets stuck as a decimal
 		// maybe find a different way to handle this other than using animation frames to determine state machines
 		if (image_index >= 4.99)
