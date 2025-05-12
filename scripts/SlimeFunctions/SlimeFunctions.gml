@@ -112,13 +112,13 @@ function SlimeAttack(){
 	if (image_index < 2) _spd = 0;
 	
 	// Freeze animation while in mid-air and also after landing finishes
-	if (floor(image_index) == 3) || (floor(image_index == 5)) image_speed = 0;
+	if (floor(image_index) == 3) || (floor(image_index) == 5) image_speed = 0;
 	
 	// How far we have to jump
 	var _distance_to_go = point_distance(x, y, x_to, y_to);
 	
 	// Begin landing end of the animation once we're nearly done
-	if (_distance_to_go < 4) && (image_index < 5) image_speed = 1.0
+	if (_distance_to_go < 4) && (image_index < 5) image_speed = 1.0;
 	
 	// Move 
 	if (_distance_to_go > _spd)
@@ -141,12 +141,9 @@ function SlimeAttack(){
 		x = x_to;
 		y = y_to;
 		
-		// So the image_index is being tracked correctly, it stop just short of 5 and gets stuck as a decimal
-		// maybe find a different way to handle this other than using animation frames to determine state machines
-		if (image_index >= 4.99)
+		if (floor(image_index) == 5)
 		{
 			state_target = ENEMYSTATE.CHASE;
-			image_index = 5;
 			state_wait_duration = 15;
 			state = ENEMYSTATE.WAIT;
 		}
