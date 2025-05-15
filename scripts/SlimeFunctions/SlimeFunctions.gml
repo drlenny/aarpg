@@ -45,7 +45,7 @@ function SlimeWander(){
 	if (++aggro_check >= aggro_check_duration)
 	{
 		aggro_check = 0;
-		if (instance_exists(obj_player)) && (point_distance(x, y, obj_player.x, obj_player.y) <= enemy_aggro_radius)
+		if (instance_exists(obj_player)) && (point_distance(x, y, obj_player.x, obj_player.y) <= enemy_aggro_radius) && (obj_player.state != PlayerStateDead)
 		{
 			state = ENEMYSTATE.CHASE;
 			target = obj_player;
@@ -143,7 +143,12 @@ function SlimeAttack(){
 		
 		if (floor(image_index) == 5)
 		{
-			state_target = ENEMYSTATE.CHASE;
+			if (obj_player.state != PlayerStateDead)
+			{
+				state_target = ENEMYSTATE.CHASE;
+			}
+			else state_target = ENEMYSTATE.WANDER;
+			
 			state_wait_duration = 15;
 			state = ENEMYSTATE.WAIT;
 		}

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"HurtPlayer",
   "parent":{
-    "name":"Player General",
-    "path":"folders/Scripts/Player General.yy",
+    "name":"Enemy Functions",
+    "path":"folders/Scripts/Enemy Functions.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

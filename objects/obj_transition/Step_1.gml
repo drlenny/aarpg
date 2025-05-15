@@ -1,6 +1,9 @@
 /// @description Progress Transition
 
-with (obj_player) state = PlayerStateTransition;
+with (obj_player) 
+{
+	if (state != PlayerStateDead) state = PlayerStateTransition;
+}
 
 if (leading == OUT)
 {
