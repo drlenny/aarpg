@@ -16,4 +16,7 @@ function PlayerThrow(){
 	}
 	PlayerActOutAnimation(spr_player_lift);
 	global.inst_lifted = noone;
+	// reset player sprites to not carrying
+	sprite_idle = spr_player;
+	sprite_run = spr_player_run;
 }
