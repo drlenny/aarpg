@@ -7,8 +7,12 @@ global.target_room = -1;
 global.target_x = -1;
 global.target_y = -1;
 global.target_direction = 0;
+
 global.player_health_max = 3;
 global.player_health = global.player_health_max;
+
+global.quest_status = ds_map_create();
+global.quest_status[? "TheHatQuest"] = 0;
 
 global.inst_lifted = noone;
 global.inst_camera = instance_create_layer(0, 0, layer, obj_camera);

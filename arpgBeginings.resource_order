@@ -45,6 +45,7 @@
     {"name":"r_init","order":2,"path":"rooms/r_init/r_init.yy",},
     {"name":"r_river","order":4,"path":"rooms/r_river/r_river.yy",},
     {"name":"r_village","order":1,"path":"rooms/r_village/r_village.yy",},
+    {"name":"ActivateHatCat","order":14,"path":"scripts/ActivateHatCat/ActivateHatCat.yy",},
     {"name":"ActivateLiftable","order":12,"path":"scripts/ActivateLiftable/ActivateLiftable.yy",},
     {"name":"DialogueResponses","order":7,"path":"scripts/DialogueResponses/DialogueResponses.yy",},
     {"name":"DropItems","order":9,"path":"scripts/DropItems/DropItems.yy",},

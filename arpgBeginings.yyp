@@ -70,6 +70,7 @@
     {"id":{"name":"r_parent","path":"rooms/r_parent/r_parent.yy",},},
     {"id":{"name":"r_river","path":"rooms/r_river/r_river.yy",},},
     {"id":{"name":"r_village","path":"rooms/r_village/r_village.yy",},},
+    {"id":{"name":"ActivateHatCat","path":"scripts/ActivateHatCat/ActivateHatCat.yy",},},
     {"id":{"name":"ActivateLiftable","path":"scripts/ActivateLiftable/ActivateLiftable.yy",},},
     {"id":{"name":"DialogueResponses","path":"scripts/DialogueResponses/DialogueResponses.yy",},},
     {"id":{"name":"DropItems","path":"scripts/DropItems/DropItems.yy",},},
