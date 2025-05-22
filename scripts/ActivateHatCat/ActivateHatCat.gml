@@ -46,7 +46,7 @@ function ActivateHatCat(){
 		
 		case 2: //quest already completed
 		{
-			NewTextBox("I love my hat! :)", 2)
+			NewTextBox("I love my hat! :)", 2);
 		} 
 		break;
 	}
