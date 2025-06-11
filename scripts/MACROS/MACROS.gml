@@ -12,6 +12,8 @@ function MACROS(){
 	#macro IN 1
 	
 	#macro CARRY_HEIGHT 13
+	#macro MAGNETIZE 16
+	#macro COLLECTION_RADIUS 5
 	
 	enum ENEMYSTATE
 	{

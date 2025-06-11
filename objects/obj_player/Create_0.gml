@@ -31,10 +31,21 @@ key_activate = bool;
 key_attack = bool;
 key_item = bool;
 
+if (global.inst_lifted == noone)
+{
+	sprite_idle = spr_player;
+	sprite_run = spr_player_run;
+}
+else 
+{
+	// set player sprites to carrying item
+	sprite_idle = spr_player_carry;
+	sprite_run = spr_player_run_carry;	
+}
 sprite_roll = spr_player_roll;
-sprite_run = spr_player_run;
-sprite_idle = spr_player;
 local_frame = 0;
+
+
 
 // position player appropriately on room transition
 if (global.target_x != -1)
