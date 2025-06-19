@@ -1,14 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hat",
+  "%Name":"obj_bomb",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_hat",
+  "name":"obj_bomb",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_entity","path":"objects/parent_entity/parent_entity.yy",},"propertyId":{"name":"entity_activate_script","path":"objects/parent_entity/parent_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ActivateLiftable",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_entity","path":"objects/parent_entity/parent_entity.yy",},"propertyId":{"name":"entity_activate_args","path":"objects/parent_entity/parent_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[id]",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_entity","path":"objects/parent_entity/parent_entity.yy",},"propertyId":{"name":"entity_shadow","path":"objects/parent_entity/parent_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_entity","path":"objects/parent_entity/parent_entity.yy",},"propertyId":{"name":"entity_throw_break","path":"objects/parent_entity/parent_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"collectibles and items",
@@ -36,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hat",
-    "path":"sprites/spr_hat/spr_hat.yy",
+    "name":"spr_bomb",
+    "path":"sprites/spr_bomb/spr_bomb.yy",
   },
   "spriteMaskId":null,
   "visible":true,

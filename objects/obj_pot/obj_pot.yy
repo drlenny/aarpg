@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_entity","path":"objects/parent_entity/parent_entity.yy",},"propertyId":{"name":"entity_hit_script","path":"objects/parent_entity/parent_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EntityHitSolid",},
   ],
   "parent":{
-    "name":"Entities",
-    "path":"folders/Objects/Entities.yy",
+    "name":"collectibles and items",
+    "path":"folders/Objects/Entities/collectibles and items.yy",
   },
   "parentObjectId":{
     "name":"parent_entity",

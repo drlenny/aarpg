@@ -2,7 +2,8 @@
 
 z = 0;
 flash = 0;
-u_flash = shader_get_uniform(sh_white_flash, "flash");
+flash_shader = sh_white_flash;
+u_flash = shader_get_uniform(flash_shader, "flash");
 lifted = 0;
 thrown = false;
 entity_drop_list = -1;
