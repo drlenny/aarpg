@@ -16,7 +16,7 @@ function PlayerStateDead(){
 	{
 		if (sprite_index == spr_player_die)
 		{
-			image_speed = max(0, image_speed - 0.03);
+			image_speed = max(0, image_speed - 0.05);
 			if (image_speed < 0.07)
 			{
 				image_index = 0;

@@ -1,10 +1,7 @@
 /// @description Draw Textbox
 
 draw_sprite_stretched(spr_text_box_bg, background, x1, y1, x2 - x1, y2 - y1);
-draw_set_font(f_text);
-draw_set_halign(fa_center);
-draw_set_valign(fa_top);
-draw_set_color(c_black);
+DrawSetText(c_black, f_text, fa_center, fa_top);
 var _print = string_copy(message, 1, text_progress);
 
 // create response selection indicator

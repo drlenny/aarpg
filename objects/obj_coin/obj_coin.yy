@@ -6,6 +6,8 @@
   "name":"obj_coin",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_entity","path":"objects/parent_entity/parent_entity.yy",},"propertyId":{"name":"entity_shadow","path":"objects/parent_entity/parent_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_collectible","path":"objects/parent_collectible/parent_collectible.yy",},"propertyId":{"name":"collect_script","path":"objects/parent_collectible/parent_collectible.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"CollectCoins",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_collectible","path":"objects/parent_collectible/parent_collectible.yy",},"propertyId":{"name":"collect_script_arg","path":"objects/parent_collectible/parent_collectible.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"collectibles and items",
