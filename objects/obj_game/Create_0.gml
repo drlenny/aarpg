@@ -8,10 +8,25 @@ global.target_x = -1;
 global.target_y = -1;
 global.target_direction = 0;
 
+// Player resources
 global.player_health_max = 3;
 global.player_health = global.player_health_max;
 global.player_money = 0;
 
+// Items
+global.player_has_any_items = false;
+global.player_equipped = ITEM.BOMB
+global.player_ammo = array_create(ITEM.TYPE_COUNT, -1);
+global.player_item_unlocked = array_create(ITEM.TYPE_COUNT, false);
+global.player_ammo[ITEM.BOMB] = 0;
+global.player_ammo[ITEM.BOW] = 0;
+
+// TEMPORARY VALUES
+global.player_item_unlocked[ITEM.BOMB] = true;
+global.player_has_any_items = true;
+global.player_ammo[ITEM.BOMB] = 5;
+
+// Quest status
 global.quest_status = ds_map_create();
 global.quest_status[? "TheHatQuest"] = 0;
 
