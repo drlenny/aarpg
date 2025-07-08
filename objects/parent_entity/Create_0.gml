@@ -8,3 +8,4 @@ lifted = 0;
 thrown = false;
 entity_drop_list = -1;
 entity_drop_count = -1;
+collision_map = layer_tilemap_get_id(layer_get_id("Col"));

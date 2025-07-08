@@ -81,6 +81,7 @@
     {"name":"ScreenShake","order":10,"path":"scripts/ScreenShake/ScreenShake.yy",},
     {"name":"ScripExecuteArray","order":3,"path":"scripts/ScripExecuteArray/ScripExecuteArray.yy",},
     {"name":"SlimeFunctions","order":2,"path":"scripts/SlimeFunctions/SlimeFunctions.yy",},
+    {"name":"UseItemFuncs","order":5,"path":"scripts/UseItemFuncs/UseItemFuncs.yy",},
     {"name":"sh_red_flash","order":1,"path":"shaders/sh_red_flash/sh_red_flash.yy",},
     {"name":"spr_cave_tiles","order":8,"path":"sprites/spr_cave_tiles/spr_cave_tiles.yy",},
     {"name":"spr_coin_ui","order":2,"path":"sprites/spr_coin_ui/spr_coin_ui.yy",},

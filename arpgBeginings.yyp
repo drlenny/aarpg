@@ -113,6 +113,7 @@
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},},
     {"id":{"name":"ScripExecuteArray","path":"scripts/ScripExecuteArray/ScripExecuteArray.yy",},},
     {"id":{"name":"SlimeFunctions","path":"scripts/SlimeFunctions/SlimeFunctions.yy",},},
+    {"id":{"name":"UseItemFuncs","path":"scripts/UseItemFuncs/UseItemFuncs.yy",},},
     {"id":{"name":"sh_red_flash","path":"shaders/sh_red_flash/sh_red_flash.yy",},},
     {"id":{"name":"sh_white_flash","path":"shaders/sh_white_flash/sh_white_flash.yy",},},
     {"id":{"name":"spr_bomb","path":"sprites/spr_bomb/spr_bomb.yy",},},
