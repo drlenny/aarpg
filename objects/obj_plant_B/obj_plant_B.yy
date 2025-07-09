@@ -15,8 +15,8 @@
     "path":"folders/Objects/Entities.yy",
   },
   "parentObjectId":{
-    "name":"parent_entity",
-    "path":"objects/parent_entity/parent_entity.yy",
+    "name":"obj_plant",
+    "path":"objects/obj_plant/obj_plant.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

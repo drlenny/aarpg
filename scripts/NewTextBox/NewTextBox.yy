@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"NewTextBox",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"group1",
+    "path":"folders/Scripts/group1.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

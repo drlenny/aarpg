@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"ActivateHatCat",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Activate Interactable",
+    "path":"folders/Scripts/Activate Interactable.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

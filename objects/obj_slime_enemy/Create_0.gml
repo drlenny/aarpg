@@ -15,3 +15,12 @@ enemy_script[ENEMYSTATE.CHASE] = SlimeChase;
 enemy_script[ENEMYSTATE.ATTACK] = SlimeAttack;
 enemy_script[ENEMYSTATE.HURT] = SlimeHurt;
 enemy_script[ENEMYSTATE.DIE] = SlimeDie;
+
+// Drop items on death
+entity_drop_list = choose
+(
+	[obj_coin],
+	[obj_coin, obj_coin],
+	[obj_bomb_drop]
+);
+entity_drop_count = array_length(entity_drop_list);
