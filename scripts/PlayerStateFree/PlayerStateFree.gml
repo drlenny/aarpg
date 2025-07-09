@@ -114,5 +114,21 @@ function PlayerStateFree(){
 		}
 	}
 	
+	// Cycle equipped items
+	if (global.player_has_any_items)
+	{
+		var _cycle_direction = key_cycle_equip_left - key_cycle_equip_right;
+		if (_cycle_direction != 0)
+		{
+			do
+			{
+				global.player_equipped += _cycle_direction;
+				if (global.player_equipped < 1) global.player_equipped = ITEM.TYPE_COUNT - 1;
+				if (global.player_equipped >= ITEM.TYPE_COUNT) global.player_equipped = 1;
+			}
+			until (global.player_item_unlocked[global.player_equipped]);
+		}
+	}
+	
 	
 }

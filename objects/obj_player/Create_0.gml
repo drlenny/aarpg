@@ -30,6 +30,8 @@ key_right = bool;
 key_activate = bool;
 key_attack = bool;
 key_item = bool;
+key_cycle_equip_left = bool;
+key_cycle_equip_right = bool;
 
 if (global.inst_lifted == noone)
 {
