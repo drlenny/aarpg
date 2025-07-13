@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"DrawSetText",
   "parent":{
-    "name":"group1",
-    "path":"folders/Scripts/group1.yy",
+    "name":"text",
+    "path":"folders/Scripts/text.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

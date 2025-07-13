@@ -26,7 +26,7 @@
   ],
   "name":"spr_arrow",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"tiles and assets",
     "path":"folders/Sprites/tiles and assets.yy",
@@ -87,7 +87,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":2,
+    "xorigin":6,
     "yorigin":6,
   },
   "swatchColours":null,
