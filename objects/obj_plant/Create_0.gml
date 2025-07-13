@@ -6,6 +6,8 @@ entity_drop_list = choose
 	[obj_coin],
 	[obj_coin, obj_coin],
 	[obj_bomb_drop],
+	[obj_arrow_drop],
+	[obj_arrow_drop, obj_arrow_drop],
 	-1,
 	-1,
 	-1

@@ -10,8 +10,8 @@ else
 	if (flash != 0)
 	{
 		shader_set(flash_shader);
-		u_flash = shader_get_uniform(flash_shader, "flash");
-		shader_set_uniform_f(u_flash, flash);
+		var _u_flash = shader_get_uniform(flash_shader, "flash");
+		shader_set_uniform_f(_u_flash, flash);
 		
 	}
 	
