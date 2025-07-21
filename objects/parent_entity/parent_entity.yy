@@ -41,6 +41,7 @@
     {"$GMObjectProperty":"v1","%Name":"entity_throw_break","filters":[],"listItems":[],"multiselect":false,"name":"entity_throw_break","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"entity_throw_distance","filters":[],"listItems":[],"multiselect":false,"name":"entity_throw_distance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"52","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"entity_shadow_mod","filters":[],"listItems":[],"multiselect":false,"name":"entity_shadow_mod","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"entity_hookable","filters":[],"listItems":[],"multiselect":false,"name":"entity_hookable","rangeEnabled":true,"rangeMax":2.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

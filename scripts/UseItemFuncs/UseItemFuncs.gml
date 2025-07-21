@@ -32,5 +32,6 @@ function PlayerFireArrow(){
 
 
 function UseItemHook(){
-
+	state = PlayerStateHook;
+	local_frame = 0;
 }

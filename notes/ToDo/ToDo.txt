@@ -1,0 +1,5 @@
+// TO DO LIST
+
+A) Create a new sort of collision to keep player from walking off edges
+	* actions such as bow or hookshot or throw should still cross the tile
+	* ^ these actions should still collide neatly with walls if doesn't already

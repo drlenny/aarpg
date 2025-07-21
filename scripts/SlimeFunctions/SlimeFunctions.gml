@@ -173,7 +173,6 @@ function SlimeHurt(){
 			y_to = y;
 		}
 	}
-	
 	else
 	{
 		x = x_to;

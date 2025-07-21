@@ -10,12 +10,22 @@ h_speed = 0;
 v_speed = 0;
 input_direction = 0;
 input_magnitude = 0;
+
 speed_walk = 2.0;
 speed_roll = 3.0;
+speed_bonk = 1.5;
+speed_hook = 3.0;
+
 distance_roll = 52;
 distance_bonk = 25;
 distance_bonk_height = 12;
-speed_bonk = 1.5;
+distance_hook = 88;
+
+hook = 0;
+hook_x = 0;
+hook_y = 0;
+hook_size = sprite_get_width(spr_hook_chain);
+
 z = 0;
 invulnerable = 0;
 flash = 0;
