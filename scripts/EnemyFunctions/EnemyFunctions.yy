@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"SlimeFunctions",
+  "%Name":"EnemyFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SlimeFunctions",
+  "name":"EnemyFunctions",
   "parent":{
     "name":"Enemy Functions",
     "path":"folders/Scripts/Enemy Functions.yy",

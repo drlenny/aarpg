@@ -13,8 +13,8 @@ spr_hurt = spr_slime_enemy_hurt;
 enemy_script[ENEMYSTATE.WANDER] = SlimeWander;
 enemy_script[ENEMYSTATE.CHASE] = SlimeChase;
 enemy_script[ENEMYSTATE.ATTACK] = SlimeAttack;
-enemy_script[ENEMYSTATE.HURT] = SlimeHurt;
-enemy_script[ENEMYSTATE.DIE] = SlimeDie;
+enemy_script[ENEMYSTATE.HURT] = GenericEnemyHurt;
+enemy_script[ENEMYSTATE.DIE] = GenericEnemyDie;
 
 // Drop items on death
 entity_drop_list = choose
