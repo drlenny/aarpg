@@ -1,4 +1,4 @@
 if (lifted == true)
 {
-	entity_collision = falddwse;
+	entity_collision = false;
 }
