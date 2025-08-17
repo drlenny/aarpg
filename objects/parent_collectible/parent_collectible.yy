@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_entity","path":"objects/parent_entity/parent_entity.yy",},"propertyId":{"name":"entity_hookable","path":"objects/parent_entity/parent_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
-    "name":"collectibles and items",
-    "path":"folders/Objects/Entities/collectibles and items.yy",
+    "name":"collectible",
+    "path":"folders/Objects/Entities/collectible.yy",
   },
   "parentObjectId":{
     "name":"parent_entity",
@@ -34,6 +34,9 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"collect_script","filters":[],"listItems":[],"multiselect":false,"name":"collect_script","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"collect_script_arg","filters":[],"listItems":[],"multiselect":false,"name":"collect_script_arg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"bounce_count","filters":[],"listItems":[],"multiselect":false,"name":"bounce_count","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"bounce_speed","filters":[],"listItems":[],"multiselect":false,"name":"bounce_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.08","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"bounce_height","filters":[],"listItems":[],"multiselect":false,"name":"bounce_height","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"6","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

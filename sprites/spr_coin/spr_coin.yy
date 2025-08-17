@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"collectibles and items",
-    "path":"folders/Sprites/tiles and assets/collectibles and items.yy",
+    "name":"collectibles",
+    "path":"folders/Sprites/tiles and assets/collectibles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

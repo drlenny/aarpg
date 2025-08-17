@@ -99,7 +99,7 @@ function PlayerStateFree(){
 	}
 	
 	// Using equipped item
-	if (key_item) && (!key_activate) && (global.player_has_any_items) && (global.player_equipped != ITEM.NONE)
+	if (key_item) && (!key_activate) && (global.player_has_any_items) && (global.player_equipped != ITEM.NONE) // && (global.inst_lifted == noone)
 	{
 		switch (global.player_equipped)
 		{

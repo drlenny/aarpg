@@ -45,7 +45,7 @@
   "origin":9,
   "parent":{
     "name":"bomb",
-    "path":"folders/Sprites/tiles and assets/collectibles and items/bomb.yy",
+    "path":"folders/Sprites/tiles and assets/bomb.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

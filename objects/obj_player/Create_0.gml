@@ -66,3 +66,10 @@ if (global.target_x != -1)
 	y = global.target_y;
 	direction = global.target_direction
 }
+
+if (global.inst_lifted != noone)
+{
+	sprite_idle = spr_player_carry;
+	sprite_run = spr_player_run_carry;
+	sprite_index = sprite_idle;
+}

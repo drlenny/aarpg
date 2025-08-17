@@ -31,6 +31,20 @@ if (instance_exists(obj_player))
 	}
 }
 
+// Bounce
+if (bounce_count != 0)
+{
+	bounce += (pi * bounce_speed);
+	if (bounce > pi)
+	{
+		bounce -= pi;
+		bounce_height *= 0.6;
+		bounce_count--;
+	}
+	z = sin(bounce) * bounce_height;
+}
+else z = 0;
+
 
 x += lengthdir_x(spd, direction);
 y += lengthdir_y(spd, direction);

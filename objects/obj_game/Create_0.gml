@@ -33,6 +33,7 @@ global.player_item_unlocked[ITEM.HOOK] = true;
 // Quest status
 global.quest_status = ds_map_create();
 global.quest_status[? "TheHatQuest"] = 0;
+global.boulder_destroyed = false;
 
 global.inst_lifted = noone;
 global.inst_camera = instance_create_layer(0, 0, layer, obj_camera);

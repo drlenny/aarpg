@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_collectible","path":"objects/parent_collectible/parent_collectible.yy",},"propertyId":{"name":"collect_script_arg","path":"objects/parent_collectible/parent_collectible.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[ITEM.BOMB, 1]",},
   ],
   "parent":{
-    "name":"collectibles and items",
-    "path":"folders/Objects/Entities/collectibles and items.yy",
+    "name":"collectible",
+    "path":"folders/Objects/Entities/collectible.yy",
   },
   "parentObjectId":{
     "name":"parent_collectible",

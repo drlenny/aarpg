@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"bomb",
-    "path":"folders/Objects/Entities/collectibles and items/bomb.yy",
+    "path":"folders/Objects/Entities/bomb.yy",
   },
   "parentObjectId":null,
   "persistent":false,
