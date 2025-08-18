@@ -8,6 +8,11 @@ if (instance_exists(obj_player)) && (position_meeting(obj_player.x, obj_player.y
 		global.target_x = target_x;
 		global.target_y = target_y;
 		global.target_direction = obj_player.direction;
+		if (keep_walking == false)
+		{
+			obj_player.h_speed = 0;
+			obj_player.v_speed = 0;
+		}
 	
 		// trasition effect
 		with (obj_player) state = PlayerStateTransition;
