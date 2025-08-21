@@ -14,3 +14,5 @@ height = RESOLUTION_H;
 height_half = (height * 0.5) + 20;
 percent = 0;
 leading = OUT;
+
+global.room_transition = true;

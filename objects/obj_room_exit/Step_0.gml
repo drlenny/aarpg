@@ -12,6 +12,7 @@ if (instance_exists(obj_player)) && (position_meeting(obj_player.x, obj_player.y
 		{
 			obj_player.h_speed = 0;
 			obj_player.v_speed = 0;
+			obj_player.image_speed = 0;
 		}
 	
 		// trasition effect

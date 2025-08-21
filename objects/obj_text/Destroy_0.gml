@@ -1,0 +1,1 @@
+global.text_box = false;

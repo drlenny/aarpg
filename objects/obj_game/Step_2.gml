@@ -1,6 +1,6 @@
 /// @description Pause the Game
 
-if (keyboard_check_pressed(vk_escape))
+if (keyboard_check_pressed(vk_escape)) && (global.text_box == false) && (global.room_transition == false)
 {
 	global.game_paused = !global.game_paused;
 	

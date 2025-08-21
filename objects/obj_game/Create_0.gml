@@ -8,6 +8,10 @@ global.target_x = -1;
 global.target_y = -1;
 global.target_direction = 0;
 
+// Pause preventions
+global.text_box = false;
+global.room_transition = false;
+
 // Player resources
 global.player_health_max = 3;
 global.player_health = global.player_health_max;

@@ -6,3 +6,6 @@ A) Create a new sort of collision to keep player from walking off edges
 	
 B) I don't really like how items can be used while carrying something, although it is
 necessary for the level design. Maybe look into changing that
+
+C) I succesfully prevented pausing state when text boxes and room transitions are occuring
+next i should try and pause the camera movement as well
