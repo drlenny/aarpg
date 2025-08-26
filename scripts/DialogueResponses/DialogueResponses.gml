@@ -33,6 +33,7 @@ function DialogueResponses(){
 			}
 		}break;
 		case 7: NewTextBox("Oh no! Hat thief!\nCURSE YOU!!!"); break;
+		case 8: PurchaseItem(activate.item, activate.item_amount, activate.item_cost); break;
 		default: break;
 	}
 }

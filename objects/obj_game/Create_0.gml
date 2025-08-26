@@ -26,13 +26,13 @@ global.player_ammo[ITEM.BOMB] = 0;
 global.player_ammo[ITEM.BOW] = 0;
 global.player_ammo_max = 99;
 
-// TEMPORARY VALUES
-global.player_item_unlocked[ITEM.BOMB] = true;
-global.player_has_any_items = true;
-global.player_ammo[ITEM.BOMB] = 5;
-global.player_item_unlocked[ITEM.BOW] = true;
-global.player_ammo[ITEM.BOW] = 15;
-global.player_item_unlocked[ITEM.HOOK] = true;
+//// TEMPORARY VALUES item unlocks for testing
+//global.player_item_unlocked[ITEM.BOMB] = true;
+//global.player_has_any_items = true;
+//global.player_ammo[ITEM.BOMB] = 5;
+//global.player_item_unlocked[ITEM.BOW] = true;
+//global.player_ammo[ITEM.BOW] = 15;
+//global.player_item_unlocked[ITEM.HOOK] = true;
 
 // Quest status
 global.quest_status = ds_map_create();

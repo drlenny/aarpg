@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"parent_entity","path":"objects/parent_entity/parent_entity.yy",},"propertyId":{"name":"entity_activate_args","path":"objects/parent_entity/parent_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[id]",},
   ],
   "parent":{
-    "name":"Entities",
-    "path":"folders/Objects/Entities.yy",
+    "name":"objects",
+    "path":"folders/Objects/Entities/objects.yy",
   },
   "parentObjectId":{
     "name":"parent_entity",
