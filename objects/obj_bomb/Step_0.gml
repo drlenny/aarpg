@@ -1,6 +1,6 @@
 event_inherited();
 
-if (!global.game_paused)
+if (!global.game_paused) && (!global.dialogue_sequence)
 {
 	// bomb timer ticks down
 	bomb_tick--;

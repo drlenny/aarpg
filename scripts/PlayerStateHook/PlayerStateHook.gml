@@ -39,6 +39,11 @@ function PlayerStateHook(){
 			
 			// check for a hit
 			var _hook_hit = collision_circle(x + hook_x, y + hook_y, 4, parent_entity, false, true);
+			var _hook_hit_wall = collision_circle(x + hook_x, y + hook_y, 4, layer_tilemap_get_id(layer_get_id("Col_Wall")), false, true)
+			
+			// Hit a wall
+			if (_hook_hit_wall) hook_status = HOOK_STATUS.MISSED;
+			
 			if (_hook_hit != noone) && (global.inst_lifted != _hook_hit)
 			{
 				// act depending on what is hit
@@ -60,8 +65,6 @@ function PlayerStateHook(){
 								hook_status = HOOK_STATUS.MISSED;
 							}
 						}
-						
-						// ** Add some tile collision later if the tutorial doesn't already do so **
 						
 					} break;
 					// set status to pull entity to player
