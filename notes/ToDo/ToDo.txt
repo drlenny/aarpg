@@ -3,6 +3,9 @@
 A) Create a new sort of collision to keep player from walking off edges
 	* actions such as bow or hookshot or throw should still cross the tile
 	* ^ these actions should still collide neatly with walls if doesn't already
+
+	****success with arrows and such, having a hell of a time trying to get the hook to do the same
+	is a lot less intuitive since it is utilizing a draw_sprite and the collision is only detecting objects, not tiles
 	
 B) I don't really like how items can be used while carrying something, although it is
 necessary for the level design. Maybe look into changing that

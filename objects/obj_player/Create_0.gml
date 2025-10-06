@@ -5,6 +5,8 @@ last_state = state;
 
 collision_map = layer_tilemap_get_id(layer_get_id("Col"));
 
+hook_collision_map = layer_tilemap_get_id(layer_get_id("Col_Wall"));
+
 image_speed = 0;
 h_speed = 0;
 v_speed = 0;

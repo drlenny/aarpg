@@ -1,6 +1,6 @@
 /// @description hit things
 
-if (!global.game_paused)
+if (!global.game_paused) && (!global.dialogue_sequence)
 {
 	var _entity = instance_place(x, y, parent_entity);
 	var _break = false;

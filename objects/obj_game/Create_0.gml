@@ -1,7 +1,10 @@
 /// @desc Initialise & Globals
 randomize();
 
+global.game_save_slot = 0;
+
 global.game_paused = false;
+global.dialogue_sequence = false;
 global.text_speed = 0.75;
 global.target_room = -1;
 global.target_x = -1;
@@ -15,7 +18,7 @@ global.room_transition = false;
 // Player resources
 global.player_health_max = 3;
 global.player_health = global.player_health_max;
-global.player_money = 0;
+global.player_money = 100;
 
 // Items
 global.player_has_any_items = false;
