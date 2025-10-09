@@ -135,6 +135,7 @@
     {"id":{"name":"PlayerThrow","path":"scripts/PlayerThrow/PlayerThrow.yy",},},
     {"id":{"name":"PurchaseItem","path":"scripts/PurchaseItem/PurchaseItem.yy",},},
     {"id":{"name":"RoomTransition","path":"scripts/RoomTransition/RoomTransition.yy",},},
+    {"id":{"name":"SaveGame","path":"scripts/SaveGame/SaveGame.yy",},},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},},
     {"id":{"name":"ScripExecuteArray","path":"scripts/ScripExecuteArray/ScripExecuteArray.yy",},},
     {"id":{"name":"UseItemFuncs","path":"scripts/UseItemFuncs/UseItemFuncs.yy",},},
