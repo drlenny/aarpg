@@ -114,6 +114,7 @@
     {"id":{"name":"EntityHitDestroy","path":"scripts/EntityHitDestroy/EntityHitDestroy.yy",},},
     {"id":{"name":"EntityHitSolid","path":"scripts/EntityHitSolid/EntityHitSolid.yy",},},
     {"id":{"name":"HurtPlayer","path":"scripts/HurtPlayer/HurtPlayer.yy",},},
+    {"id":{"name":"LoadGame","path":"scripts/LoadGame/LoadGame.yy",},},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
     {"id":{"name":"NewTextBox","path":"scripts/NewTextBox/NewTextBox.yy",},},
     {"id":{"name":"NineSliceBox","path":"scripts/NineSliceBox/NineSliceBox.yy",},},
