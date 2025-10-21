@@ -44,6 +44,7 @@ function PlayerStateHook(){
 			// Hit a wall
 			if (_hook_hit_wall) hook_status = HOOK_STATUS.MISSED;
 			
+			// Hit entity
 			if (_hook_hit != noone) && (global.inst_lifted != _hook_hit)
 			{
 				// act depending on what is hit

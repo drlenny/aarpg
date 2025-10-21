@@ -1,6 +1,9 @@
 /// @description Pause the Game
 
-if (keyboard_check_pressed(vk_escape)) && (global.text_box == false) && (global.room_transition == false)
+if (keyboard_check_pressed(vk_escape)) 
+&& (global.text_box == false) 
+&& (global.room_transition == false)
+&& (obj_player.state != PlayerStateDead)
 {
 	global.game_paused = !global.game_paused;
 	
@@ -8,8 +11,7 @@ if (keyboard_check_pressed(vk_escape)) && (global.text_box == false) && (global.
 	{
 		with (all)
 		{
-			game_paused_image_speed = image_speed;
-			image_speed = 0;
+			ContinueGame();
 		}
 	}
 	else

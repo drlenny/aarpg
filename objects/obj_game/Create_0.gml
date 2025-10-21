@@ -18,7 +18,7 @@ global.room_transition = false;
 // Player resources
 global.player_health_max = 3;
 global.player_health = global.player_health_max;
-global.player_money = 0;
+global.player_money = 100;
 
 // Items
 global.player_has_any_items = false;

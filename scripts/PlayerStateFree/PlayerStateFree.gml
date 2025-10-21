@@ -103,9 +103,9 @@ function PlayerStateFree(){
 	{
 		switch (global.player_equipped)
 		{
-			case ITEM.BOMB: UseItemBomb();
+			case ITEM.BOMB: if (global.inst_lifted == noone) UseItemBomb();
 			break;
-			case ITEM.BOW: UseItemBow();
+			case ITEM.BOW: if (global.inst_lifted == noone) UseItemBow();
 			break;
 			case ITEM.HOOK: UseItemHook();
 			break;

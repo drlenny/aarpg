@@ -105,6 +105,7 @@
     {"id":{"name":"ActivateHatCat","path":"scripts/ActivateHatCat/ActivateHatCat.yy",},},
     {"id":{"name":"ActivateLiftable","path":"scripts/ActivateLiftable/ActivateLiftable.yy",},},
     {"id":{"name":"CollectFunctions","path":"scripts/CollectFunctions/CollectFunctions.yy",},},
+    {"id":{"name":"ContinueGame","path":"scripts/ContinueGame/ContinueGame.yy",},},
     {"id":{"name":"DialogueResponses","path":"scripts/DialogueResponses/DialogueResponses.yy",},},
     {"id":{"name":"DrawSetText","path":"scripts/DrawSetText/DrawSetText.yy",},},
     {"id":{"name":"DropItems","path":"scripts/DropItems/DropItems.yy",},},
